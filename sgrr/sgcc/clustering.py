@@ -7,7 +7,7 @@ class Sgcc:
         self,
         k: int,
         t: int,
-        p=0.5,
+        p: float = 0.5,
         verbose: bool = False,
     ):
         self.k = k
